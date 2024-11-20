@@ -1,0 +1,79 @@
+.nav, a{
+text-decoration: none;
+color: white;
+background-color: blueviolet;
+text-align: center;
+padding: 25px;
+}
+a:hover{
+    background-color: rgba(189, 195, 199, 0.5);
+}
+.Dogs{
+    color: white;
+    padding-top: 250px;
+    text-align: center;
+  margin: 0 auto;
+}
+.img{
+    background-image: url(https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg);
+    height: 500px;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imgs{
+    display: inline-block ;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.avalible{
+    text-align: center;
+    color: blueviolet;
+}
+p{
+    width: 200px;
+}
+img{
+    height: 200px;
+}
+@media screen and (min-width:) {
+    .nav, a{
+        text-decoration: none;
+        color: white;
+        background-color: blueviolet;
+        text-align: center;
+        padding: 25px;
+        }
+        a:hover{
+            background-color: rgba(189, 195, 199, 0.5);
+        }
+        .Dogs{
+            color: white;
+            padding-top: 250px;
+            text-align: center;
+          margin: 0 auto;
+        }
+        .img{
+            background-image: url(https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg);
+            height: 500px;
+           
+            background-size: cover;
+            margin: 0 auto;
+        }
+        .imgs{
+            display: inline-block ;
+            display: flex;
+            gap: 20px;
+            text-align: center;
+        }
+        .avalible{
+            text-align: center;
+            color: blueviolet;
+        }
+        p{
+            width: 200px;
+        }
+        img{
+            height: 200px;
+        }
+}
