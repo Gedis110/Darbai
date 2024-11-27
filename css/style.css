@@ -1,11 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&display=swap');
+
+body{
+    margin: 0;
+}
+h1{
+    margin: 10px 0 10px 25px;
+    font-family: "Dynalight";
+    color: blueviolet;
+}
+
 .nav, a{
-text-decoration: none;
-color: white;
-background-color: blueviolet;
-text-align: center;
-padding: 25px;
+    display:flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    padding:15px 25px 15px 25px;
 }
 a:hover{
+    border-radius: 100px;
     background-color: rgba(189, 195, 199, 0.5);
 }
 .Dogs{
@@ -18,13 +33,16 @@ a:hover{
     background-image: url(https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg);
     height: 500px;
     background-size: cover;
-    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .imgs{
-    display: inline-block ;
-    display: flex;
+    display:flex;
     gap: 20px;
     text-align: center;
+    margin: auto 0;
+   justify-content: center;
+   flex-wrap: wrap;
 }
 .avalible{
     text-align: center;
@@ -36,44 +54,10 @@ p{
 img{
     height: 200px;
 }
-@media screen and (min-width:) {
-    .nav, a{
-        text-decoration: none;
-        color: white;
-        background-color: blueviolet;
-        text-align: center;
-        padding: 25px;
-        }
-        a:hover{
-            background-color: rgba(189, 195, 199, 0.5);
-        }
-        .Dogs{
-            color: white;
-            padding-top: 250px;
-            text-align: center;
-          margin: 0 auto;
-        }
-        .img{
-            background-image: url(https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg);
-            height: 500px;
-           
-            background-size: cover;
-            margin: 0 auto;
-        }
-        .imgs{
-            display: inline-block ;
-            display: flex;
-            gap: 20px;
-            text-align: center;
-        }
-        .avalible{
-            text-align: center;
-            color: blueviolet;
-        }
-        p{
-            width: 200px;
-        }
-        img{
-            height: 200px;
-        }
+
+@media (min-width: 768px) {
+
+}
+@media (max-width: 767px) {
+
 }
